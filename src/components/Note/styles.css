@@ -10,6 +10,10 @@
   background: var(--note-background);
 }
 
+.note.highlight {
+  border: 2px solid var(--dark-gray);
+}
+
 .note hr {
   align-self: center;
   width: 80%;
@@ -36,7 +40,7 @@
 
   overflow-x: hidden;
   overflow-y: scroll;
-  text-overflow: ellipsis;
+  overflow-wrap: break-word;
 }
 
 .note .title::-webkit-scrollbar {
